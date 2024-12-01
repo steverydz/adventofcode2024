@@ -34,7 +34,6 @@ def find_number():
         count = lists[1].count(item)
         total += item * count
 
-    print(total)
     return total
 
 

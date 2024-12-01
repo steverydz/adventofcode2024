@@ -41,7 +41,6 @@ def get_total_distance():
         if distance > 0:
             total += distance
 
-    print(total)
     return total
 
 
