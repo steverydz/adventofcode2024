@@ -1,5 +1,5 @@
 def get_data():
-    file = open("./inputs.txt", "r")
+    file = open("inputs.txt", "r")
     content = file.readlines()
     file.close()
 
