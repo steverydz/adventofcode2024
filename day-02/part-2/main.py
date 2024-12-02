@@ -92,6 +92,7 @@ def safe_decreasing_dampened_reports(report):
     for i in range(len(report)):
         if is_safe_decreasing(report[:i] + report[i + 1 :]):
             return True
+
     return False
 
 
